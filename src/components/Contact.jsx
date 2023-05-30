@@ -118,4 +118,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contack");
+export default SectionWrapper(Contact, "contact");
