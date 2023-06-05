@@ -29,6 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import psLogo from "./ps-logo.svg";
+import Newton from "./new-1.svg";
+import Benthon from "./bent.png";
+import Alps from "./alps.png";
+import link from './link.png';
+import credello from './credello.png';
+import soh from './soh.png';
+// import soh from './soh.png';
 
 export {
   logo,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  psLogo,
+  Newton,
+  Benthon,
+  Alps,
+  link,
+  credello,
+  soh
 };

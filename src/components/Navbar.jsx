@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, psLogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -22,10 +22,10 @@ const Navbar = () => {
           }}
         >
           {" "}
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={psLogo} alt="logo" className="w-12 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             {" "}
-            Pushpendra &nbsp; <span className="sm:block hidden">| JavaScript</span>
+            Pushpendra &nbsp; <span className="sm:block hidden">| DEV</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
