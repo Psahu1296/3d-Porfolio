@@ -28,7 +28,9 @@ import {
     Alps,
     link,
     credello,
-    soh
+    soh,
+    ViveksPic,
+    SaurabhPic
   } from "../assets";
   
   export const navLinks = [
@@ -178,28 +180,28 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Pushpendra meets project deadlines and delivers high-quality work. He is a good problem-solver, always willing to go the extra mile to identify and resolve issues. His dedication and diligence make him valuable to any development team.",
+      name: "Vivek Makwana",
+      designation: "Senior Software Engineer",
+      company: "Benthon Labs",
+      image: ViveksPic,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "It's been a great time working with pushpendra. He learns many things in short period of time. He is a good learner and colleague.",
+      name: "Saurabh Tiwari",
+      designation: "Software Engineer",
+      company: "Benthon Labs",
+      image: SaurabhPic,
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
