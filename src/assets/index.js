@@ -37,7 +37,8 @@ import link from './link.png';
 import credello from './credello.png';
 import soh from './soh.png';
 // import soh from './soh.png';
-
+import ViveksPic from "./people/vivek.jpeg"
+import SaurabhPic from "./people/saurabh.jpeg"
 export {
   logo,
   backend,
@@ -73,5 +74,7 @@ export {
   Alps,
   link,
   credello,
-  soh
+  soh,
+  ViveksPic,
+  SaurabhPic
 };
